@@ -3,7 +3,7 @@ var losses = 0;
 var score = 0;
 var targetNumber;
 var characterNumber;
-var guesses = []; 
+// var guesses = []; 
 
 // picks a random number between 19 and 120
 targetNumber = Math.floor(Math.random() * (120 - 19 + 1)) + 19;
