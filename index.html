@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Game of Thrones!</title>
+</head>
+<link rel="stylesheet" type="text/css" href="css/style.css">
+
+<body background="images/pexels-photo-235985.jpeg">
+    <link href="https://fonts.googleapis.com/css?family=Diplomata+SC|Raleway" rel="stylesheet">
+    <header>
+        <h1>Game of Thrones!</h1>
+    </header>
+    <div class = "main-container">
+        <h2>Directions:</h2>
+        <p>You will be given a random number at the start of the game.</p>
+        <p>By clicking on a character you will add a specific amount of points to your total score.</p>
+        <p>You win the game by matching your total score to the random number. You lose the game if your total score goes above the random number.</p>
+        <p>The value of each character is hidden from you until you click on it.</p>
+        <p>Each time the game starts the game will change the value of each character.</p>
+    </div>
+    <div class='gameBox'>
+        <div id="goal" class="randomBox">Target Number:
+        </div>
+        <div id="results" class="resultsBox">
+        </div>
+        <div>
+            <img id="jonsnow" class="characters" src="images/jonsnow.jpg" alt="Jon Snow Game of Thrones">
+            <img id="khaleesi" class="characters" src="images/khaleesi.jpg" alt="Khaleesi Game of Thrones">
+            <img id="sansa" class="characters" src="images/sansa.jpg" alt="Sansa Game of Thrones">
+            <img id="tyrion" class="characters" src="images/tyrion.jpg" alt="Tyrion Game of Thrones">
+        </div>
+        <div id= "yourScore" class="yourBox">
+        </div>
+    </div>
+    <script src="https://code.jquery.com/jquery-3.1.0.min.js"></script>
+    <script src="javascript/game.js"></script>
+</body>
+
+</html>

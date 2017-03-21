@@ -1,0 +1,92 @@
+* {
+	font-weight: bold;
+	color: white;
+	text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black;
+}
+
+.main-container {
+	text-align: center;
+}
+
+
+.characters {
+	width: 100px;
+	height: 100px;
+	float: left;
+	border-style: solid;
+	border-width: 4px;
+	border-color: lightblue;
+	margin: 4px;
+}
+
+p {
+	font-family: 'Raleway', sans-serif;
+	font-size: 18px;
+}
+
+header {
+	text-align: center;
+	font-family: 'Diplomata SC', cursive;
+}
+
+h2 {
+	font-family: 'Diplomata SC', cursive;
+
+}
+
+.characterClick {
+	width: 100px;
+	height: 100px;
+	float: left;
+	border-style: solid;
+	border-width: 7px;
+	border-color: red;
+	margin: 1px;
+}
+
+.randomBox {
+	width: 215px;
+	height: 100px;
+	border-style: solid;
+	border-width: 5px;
+	border-color: #cfdadc;
+	background: #0a141d;
+	float: left;
+	margin: 4px;
+	font-size: 30px;
+}
+
+.yourBox {
+	width: 215px;
+	height: 100px;
+	border-style: solid;
+	border-width: 5px;
+	border-color: #cfdadc;
+	background: #0a141d;
+	margin: 4px;
+	float: left;
+	font-size: 30px;
+	text-align: center;
+}
+
+.resultsBox {
+	width: 215px;
+	height: 100px;
+	border-style: solid;
+	border-width: 5px;
+	border-color: #cfdadc;
+	background: #0a141d;
+	float: left;
+	margin: 4px;
+	font-size: 20px;
+	text-align: center;
+
+}
+
+.gameBox {
+    display: inline-block;
+    width: 525px;
+    margin-left: 350px;
+
+}
+
